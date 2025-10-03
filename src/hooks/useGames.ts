@@ -13,6 +13,7 @@ export interface Game {
   background_image: string;
   description: string;
   parent_platforms: { platform: Platform}[];
+  metacritic: number;
 }
 interface FetchGamesResponse {
   count: number;
